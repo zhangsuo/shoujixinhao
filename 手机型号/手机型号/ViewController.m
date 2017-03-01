@@ -18,6 +18,10 @@
     [super viewDidLoad];
     
    // 1.手机系统版本：9.1
+    int a[6] = {1,2,3,4,5,6};
+    int *prt = (int *)(&a+1);
+    printf("%d,%d",*(a+2),*(prt-3));
+    printf("这个数为%d的",*(prt-1));
     NSString* phoneVersion = [[UIDevice currentDevice] systemVersion];
     
     NSLog(@"系统版本%@",phoneVersion );
