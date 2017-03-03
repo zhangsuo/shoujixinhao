@@ -38,6 +38,9 @@
      NSLog(@"手机系统%@",iponeM );
     //4.电池电量
     
+    
+    
+    
   //  CGFloat batteryLevel=[[UIDevicecurrent Device] batteryLevel];
 }
 - (NSString *)iphoneType {
